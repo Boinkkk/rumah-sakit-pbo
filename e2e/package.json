@@ -1,0 +1,14 @@
+{
+  "name": "medikacare-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-End visual presentation and regression test suite for MedikaCare",
+  "scripts": {
+    "test:demo": "node run-e2e.js demo",
+    "test:fast": "node run-e2e.js fast",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}
